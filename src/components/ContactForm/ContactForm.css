@@ -1,0 +1,9 @@
+.containerr {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.top_button{
+    display: flex;
+    gap: 30px;
+}
