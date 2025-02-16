@@ -21,8 +21,29 @@ const ContactForm = () => {
           text="VIA EMAIL FORM"
           icon={<HiOutlineMail fontSize={"24px"} />}
         />
+
+        <form action="#">
+          <div className="form_control">
+            <label htmlFor="name">Name</label>
+            <input type="text" />
+          </div>       
+          <div className="form_control">
+            <label htmlFor="email">Email</label>
+            <input type="email" />
+          </div>       
+          <div className="form_control">
+            <label htmlFor="email">Textarea</label>
+            <textarea name="text"/>
+          </div> 
+          <div style={{display: "flex", justifyContent: "end"}}>
+          <Button  text="Submit" />    
+            </div>  
+        </form>
       </div>
-      <div className="contactImage"></div>
+
+      <div className="contactImage">
+        <img src="/images/Service 24_7-pana 1.svg" alt="contact image" />
+      </div>
     </section>
   );
 };
