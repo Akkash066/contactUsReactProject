@@ -1,10 +1,10 @@
-import "./Navigation.module.css";
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
     <nav className="container">
         <div className="logo">
-            <img src="/images/Frame 2 1.png" />
+            <img src="/images/contact_logo.png" />
         </div>
         <ul>
             <li>Home</li>
