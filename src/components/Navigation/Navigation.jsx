@@ -1,4 +1,4 @@
-import "./Navigation.css";
+import "./Navigation.module.css";
 
 const Navigation = () => {
   return (
@@ -14,5 +14,4 @@ const Navigation = () => {
     </nav>
   )
 }
-
 export default Navigation
