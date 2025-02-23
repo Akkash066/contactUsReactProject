@@ -42,7 +42,7 @@ const ContactForm = () => {
       </div>
 {/* 24/7 contact image */}
       <div className="contactImage">
-        <img src="/images/Service 24_7-pana 1.svg" alt="contact image" />
+        <img src="/contactUsReactProject/images/Service 24_7-pana 1.svg" alt="contact image" />
       </div>
     </section>
   );
