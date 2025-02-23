@@ -4,7 +4,7 @@ const Navigation = () => {
   return (
     <nav className="container">
         <div className="logo">
-            <img src="/images/Frame 2 1.png" />
+            <img src="/contactUsReactProject/images/Frame.png" />
         </div>
         <ul>
             <li>Home</li>
