@@ -10,7 +10,7 @@ nav{
     list-style-type: none;
     gap: 24px;
   }
-  img{
+  .logo{
     width: 150px;
     height: 150px;
     filter: contrast(130%); 
