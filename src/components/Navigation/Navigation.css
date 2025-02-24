@@ -10,3 +10,8 @@ nav{
     list-style-type: none;
     gap: 24px;
   }
+  img{
+    width: 150px;
+    height: 150px;
+    filter: contrast(130%); 
+  }
